@@ -14,7 +14,7 @@
 ###Features
 
 - The Custom UIControl is accessible via storyboard.
-- Circular segments changes color when value changes (or maybe this is requirement?)
+- Circular segments changes color when value changes (or maybe this is a requirement?)
 
 
 ###To-Do
