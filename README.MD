@@ -10,7 +10,6 @@
 
 - Some Text Labels are not prefectly sized & positions. Will polish further. 
 
-
 ###Features
 
 - The Custom UIControl is accessible via storyboard.
