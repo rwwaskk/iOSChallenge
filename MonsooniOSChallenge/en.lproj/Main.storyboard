@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController storyboardIdentifier="myViewController" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" tag="6" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MonsooniOSChallenge.png" id="3Pg-C5-sl4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="566"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pPf-HN-QD6">
+                                <rect key="frame" x="61" y="423" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="MON_shuffleIcon.png"/>
+                                <connections>
+                                    <action selector="randomize:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4Za-Ac-O6j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="n7m-wx-OE3">
+                                <rect key="frame" x="195" y="423" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="MON_GO.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="go:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="iS0-hg-GX1"/>
+                                    <segue destination="Ugj-vN-PFj" kind="modal" identifier="modal" id="f47-fs-M8x"/>
+                                </connections>
+                            </button>
+                            <view tag="2" contentMode="scaleToFill" id="4N7-49-w9j" customClass="CustomUIControl">
+                                <rect key="frame" x="170" y="68" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MON_Ellipse-13-copy.png" id="LQ6-p7-gpS">
+                                        <rect key="frame" x="7" y="8" width="90" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="12" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5QQ-jD-U83">
+                                        <rect key="frame" x="19" y="42" width="67" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="SAVORY">
+                                                <attributes>
+                                                    <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                    <font key="NSFont" size="16" name="Verdana"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <connections>
+                                    <action selector="changeFlavor:" destination="vXZ-lx-hvc" eventType="touchDown" id="Cga-Xy-FG6"/>
+                                </connections>
+                            </view>
+                            <view tag="3" contentMode="scaleToFill" id="ivp-jq-nMy" customClass="CustomUIControl">
+                                <rect key="frame" x="170" y="191" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MON_Ellipse-13-copy.png" id="aKH-jm-UTA">
+                                        <rect key="frame" x="7" y="8" width="90" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="13" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eof-UL-7Mb">
+                                        <rect key="frame" x="27" y="42" width="51" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="SPICY">
+                                                <attributes>
+                                                    <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                    <font key="NSFont" size="16" name="Verdana"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <connections>
+                                    <action selector="changeTexture:" destination="vXZ-lx-hvc" eventType="touchDown" id="dAd-ZX-Ecm"/>
+                                </connections>
+                            </view>
+                            <view tag="4" contentMode="scaleToFill" id="dYi-cc-n7h" customClass="CustomUIControl">
+                                <rect key="frame" x="36" y="191" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MON_Ellipse-13-copy.png" id="d1b-4C-zfp">
+                                        <rect key="frame" x="7" y="8" width="90" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="14" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Atd-0Z-n9H">
+                                        <rect key="frame" x="10" y="42" width="84" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="CRUNCHY">
+                                                <attributes>
+                                                    <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                    <font key="NSFont" size="17" name="Verdana"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <connections>
+                                    <action selector="changeHotness:" destination="vXZ-lx-hvc" eventType="touchDown" id="rjh-ju-qRg"/>
+                                </connections>
+                            </view>
+                            <view tag="6" contentMode="scaleToFill" id="v1V-4W-GO5" customClass="CustomUIControl">
+                                <rect key="frame" x="170" y="314" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MON_Ellipse-13-copy.png" id="fW3-oI-Ken">
+                                        <rect key="frame" x="7" y="8" width="90" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="14" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZWJ-Ig-LTb">
+                                        <rect key="frame" x="6" y="42" width="93" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="BREAKFAST">
+                                                <attributes>
+                                                    <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                    <font key="NSFont" size="16" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <connections>
+                                    <action selector="changeTime:" destination="vXZ-lx-hvc" eventType="touchDown" id="VfE-Fa-KRD"/>
+                                </connections>
+                            </view>
+                            <view tag="5" contentMode="scaleToFill" id="XX0-tE-ibC" customClass="CustomUIControl">
+                                <rect key="frame" x="36" y="314" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MON_Ellipse-13-copy.png" id="ip8-mO-XRK">
+                                        <rect key="frame" x="7" y="8" width="90" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="15" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kRU-S7-rNs">
+                                        <rect key="frame" x="6" y="42" width="91" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="A LITTLE">
+                                                <attributes>
+                                                    <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                    <font key="NSFont" size="17" name="Verdana"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <connections>
+                                    <action selector="changeAmount:" destination="vXZ-lx-hvc" eventType="touchDown" id="bD7-bZ-zkU"/>
+                                </connections>
+                            </view>
+                            <view tag="1" contentMode="scaleToFill" id="uHT-kv-Uhv" customClass="CustomUIControl">
+                                <rect key="frame" x="36" y="68" width="115" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MON_Ellipse-13-copy.png" id="RX7-c3-zSl">
+                                        <rect key="frame" x="7" y="8" width="90" height="90"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="11" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NmO-03-bbv">
+                                        <rect key="frame" x="-7" y="41" width="119" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="ONE OF A KIND">
+                                                <attributes>
+                                                    <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                                    <font key="NSFont" size="11" name="Verdana"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <connections>
+                                    <action selector="changeBatches:" destination="vXZ-lx-hvc" eventType="touchDown" id="0Fn-n5-EP6"/>
+                                </connections>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fif-rJ-sLU">
+                                <rect key="frame" x="61" y="19" width="46" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="MON_calendarIcon.png">
+                                    <color key="titleShadowColor" red="0.88733657529999999" green="0.35908320570000002" blue="0.55753046439999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="calendar:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4m0-pt-ieG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IwK-uB-HRe">
+                                <rect key="frame" x="106" y="19" width="45" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="MON_compassIcon.png">
+                                    <color key="titleShadowColor" red="0.88733657529999999" green="0.35908320570000002" blue="0.55753046439999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="compass:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="OQH-4x-tOK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="P6x-zx-he5">
+                                <rect key="frame" x="259" y="19" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="MON_menuIcon.png">
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="menu:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7Pl-yl-uxS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="U1p-hJ-FQa">
+                                <rect key="frame" x="21" y="20" width="45" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="MON_searchIcon.png">
+                                    <color key="titleShadowColor" red="0.88733657529999999" green="0.35908320570000002" blue="0.55753046439999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="search:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Udu-bd-vdc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="amount" destination="XX0-tE-ibC" id="dPL-yu-A6k"/>
+                        <outlet property="amountLabel" destination="kRU-S7-rNs" id="tmi-lv-kpq"/>
+                        <outlet property="batches" destination="uHT-kv-Uhv" id="PdI-Oh-Aph"/>
+                        <outlet property="batchesLabel" destination="NmO-03-bbv" id="bvA-Rp-kLE"/>
+                        <outlet property="calendarBtn" destination="fif-rJ-sLU" id="EJX-j5-bIF"/>
+                        <outlet property="compassBtn" destination="IwK-uB-HRe" id="RrE-E0-3bF"/>
+                        <outlet property="flavor" destination="4N7-49-w9j" id="7Zl-dk-0x3"/>
+                        <outlet property="flavorLabel" destination="5QQ-jD-U83" id="xoi-ah-wMa"/>
+                        <outlet property="go" destination="n7m-wx-OE3" id="2XC-JW-er2"/>
+                        <outlet property="hotness" destination="dYi-cc-n7h" id="tXI-ol-91J"/>
+                        <outlet property="hotnessLabel" destination="Atd-0Z-n9H" id="sRC-wS-5WK"/>
+                        <outlet property="menuBtn" destination="P6x-zx-he5" id="hKA-Ns-0hj"/>
+                        <outlet property="randomize" destination="pPf-HN-QD6" id="alZ-Zn-CsQ"/>
+                        <outlet property="searchBtn" destination="U1p-hJ-FQa" id="Kn1-rn-Rn3"/>
+                        <outlet property="texture" destination="ivp-jq-nMy" id="z7t-O7-76h"/>
+                        <outlet property="textureLabel" destination="eof-UL-7Mb" id="c84-31-FFl"/>
+                        <outlet property="time" destination="v1V-4W-GO5" id="5cn-WU-Grr"/>
+                        <outlet property="timeLabel" destination="ZWJ-Ig-LTb" id="Ud1-wL-QHu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-126" y="133"/>
+        </scene>
+        <!--Display View Controller-->
+        <scene sceneID="14y-cE-0Ah">
+            <objects>
+                <viewController id="Ugj-vN-PFj" customClass="DisplayViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kev-4d-cWL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="2Xr-EQ-a9s">
+                                <rect key="frame" x="-65" y="-8" width="385" height="576"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MonsooniOSChallenge.png" id="Khm-GZ-GdJ">
+                                        <rect key="frame" x="65" y="8" width="320" height="568"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.5499999999999996" contentMode="scaleToFill" editable="NO" text="null" textAlignment="center" id="AeC-87-iWL">
+                                        <rect key="frame" x="105" y="49" width="240" height="370"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="26"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Guh-bf-U94">
+                                        <rect key="frame" x="175" y="446" width="100" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="GO BACK">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="vXZ-lx-hvc" kind="modal" modalTransitionStyle="crossDissolve" id="Sh1-hA-ose"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="twd-q8-dse"/>
+                    <connections>
+                        <outlet property="resultText" destination="AeC-87-iWL" id="DEq-rL-fbH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tKV-2m-wA1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="255" y="133"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MON_Ellipse-13-copy.png" width="50" height="50"/>
+        <image name="MON_GO.png" width="27" height="13"/>
+        <image name="MON_calendarIcon.png" width="23" height="23"/>
+        <image name="MON_compassIcon.png" width="22" height="22"/>
+        <image name="MON_menuIcon.png" width="23" height="13"/>
+        <image name="MON_searchIcon.png" width="22" height="22"/>
+        <image name="MON_shuffleIcon.png" width="26" height="16"/>
+        <image name="MonsooniOSChallenge.png" width="640" height="1136"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

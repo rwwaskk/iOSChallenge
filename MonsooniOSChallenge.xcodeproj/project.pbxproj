@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83540C591AE85D5E009CD86D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83540C571AE85D5E009CD86D /* Main.storyboard */; };
+		83540C5C1AE864F0009CD86D /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83540C5B1AE864F0009CD86D /* DisplayViewController.m */; };
+		83DADADC1AE7408400A21B5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DADADB1AE7408400A21B5D /* main.m */; };
+		83DADADF1AE7408500A21B5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DADADE1AE7408500A21B5D /* AppDelegate.m */; };
+		83DADAE21AE7408500A21B5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DADAE11AE7408500A21B5D /* ViewController.m */; };
+		83DADAE71AE7408700A21B5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83DADAE61AE7408700A21B5D /* Images.xcassets */; };
+		83DADAEA1AE7408700A21B5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83DADAE81AE7408700A21B5D /* LaunchScreen.xib */; };
+		83DADAF61AE7408800A21B5D /* MonsooniOSChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DADAF51AE7408800A21B5D /* MonsooniOSChallengeTests.m */; };
+		83DADB011AE753DC00A21B5D /* CustomUIControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DADB001AE753DC00A21B5D /* CustomUIControl.m */; };
+		83E9CC181AE9B1E70059B6F6 /* MON_calendarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E9CC0F1AE9B1E60059B6F6 /* MON_calendarIcon@2x.png */; };
+		83E9CC191AE9B1E70059B6F6 /* MON_compassIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E9CC101AE9B1E60059B6F6 /* MON_compassIcon@2x.png */; };
+		83E9CC1A1AE9B1E70059B6F6 /* MON_Ellipse-13-copy-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E9CC111AE9B1E60059B6F6 /* MON_Ellipse-13-copy-2@2x.png */; };
+		83E9CC1B1AE9B1E70059B6F6 /* MON_Ellipse-13-copy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E9CC121AE9B1E60059B6F6 /* MON_Ellipse-13-copy@2x.png */; };
+		83E9CC1C1AE9B1E70059B6F6 /* MON_GO@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E9CC131AE9B1E60059B6F6 /* MON_GO@2x.png */; };
+		83E9CC1D1AE9B1E70059B6F6 /* MON_menuIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E9CC141AE9B1E60059B6F6 /* MON_menuIcon@2x.png */; };
+		83E9CC1E1AE9B1E70059B6F6 /* MON_searchIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E9CC151AE9B1E60059B6F6 /* MON_searchIcon@2x.png */; };
+		83E9CC1F1AE9B1E70059B6F6 /* MON_shuffleIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E9CC161AE9B1E60059B6F6 /* MON_shuffleIcon@2x.png */; };
+		83E9CC201AE9B1E70059B6F6 /* MonsooniOSChallenge.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E9CC171AE9B1E60059B6F6 /* MonsooniOSChallenge.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83DADAF01AE7408800A21B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83DADACE1AE7408100A21B5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83DADAD51AE7408200A21B5D;
+			remoteInfo = MonsooniOSChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83540C581AE85D5E009CD86D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MonsooniOSChallenge/en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83540C5A1AE864EF009CD86D /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayViewController.h; sourceTree = "<group>"; };
+		83540C5B1AE864F0009CD86D /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayViewController.m; sourceTree = "<group>"; };
+		83DADAD61AE7408300A21B5D /* MonsooniOSChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsooniOSChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DADADA1AE7408400A21B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83DADADB1AE7408400A21B5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83DADADD1AE7408400A21B5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83DADADE1AE7408500A21B5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83DADAE01AE7408500A21B5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83DADAE11AE7408500A21B5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83DADAE61AE7408700A21B5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83DADAE91AE7408700A21B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		83DADAEF1AE7408800A21B5D /* MonsooniOSChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonsooniOSChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DADAF41AE7408800A21B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83DADAF51AE7408800A21B5D /* MonsooniOSChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonsooniOSChallengeTests.m; sourceTree = "<group>"; };
+		83DADAFF1AE753DC00A21B5D /* CustomUIControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUIControl.h; sourceTree = "<group>"; };
+		83DADB001AE753DC00A21B5D /* CustomUIControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUIControl.m; sourceTree = "<group>"; };
+		83E9CC0F1AE9B1E60059B6F6 /* MON_calendarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MON_calendarIcon@2x.png"; sourceTree = "<group>"; };
+		83E9CC101AE9B1E60059B6F6 /* MON_compassIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MON_compassIcon@2x.png"; sourceTree = "<group>"; };
+		83E9CC111AE9B1E60059B6F6 /* MON_Ellipse-13-copy-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MON_Ellipse-13-copy-2@2x.png"; sourceTree = "<group>"; };
+		83E9CC121AE9B1E60059B6F6 /* MON_Ellipse-13-copy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MON_Ellipse-13-copy@2x.png"; sourceTree = "<group>"; };
+		83E9CC131AE9B1E60059B6F6 /* MON_GO@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MON_GO@2x.png"; sourceTree = "<group>"; };
+		83E9CC141AE9B1E60059B6F6 /* MON_menuIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MON_menuIcon@2x.png"; sourceTree = "<group>"; };
+		83E9CC151AE9B1E60059B6F6 /* MON_searchIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MON_searchIcon@2x.png"; sourceTree = "<group>"; };
+		83E9CC161AE9B1E60059B6F6 /* MON_shuffleIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MON_shuffleIcon@2x.png"; sourceTree = "<group>"; };
+		83E9CC171AE9B1E60059B6F6 /* MonsooniOSChallenge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MonsooniOSChallenge.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83DADAD31AE7408200A21B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DADAEC1AE7408800A21B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83DADACD1AE7408100A21B5D = {
+			isa = PBXGroup;
+			children = (
+				83DADAD81AE7408300A21B5D /* MonsooniOSChallenge */,
+				83DADAF21AE7408800A21B5D /* MonsooniOSChallengeTests */,
+				83DADAD71AE7408300A21B5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83DADAD71AE7408300A21B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83DADAD61AE7408300A21B5D /* MonsooniOSChallenge.app */,
+				83DADAEF1AE7408800A21B5D /* MonsooniOSChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83DADAD81AE7408300A21B5D /* MonsooniOSChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				83E9CC0E1AE9B1E60059B6F6 /* assets */,
+				83540C571AE85D5E009CD86D /* Main.storyboard */,
+				83DADADD1AE7408400A21B5D /* AppDelegate.h */,
+				83DADADE1AE7408500A21B5D /* AppDelegate.m */,
+				83DADAE01AE7408500A21B5D /* ViewController.h */,
+				83DADAE11AE7408500A21B5D /* ViewController.m */,
+				83DADAE61AE7408700A21B5D /* Images.xcassets */,
+				83DADAE81AE7408700A21B5D /* LaunchScreen.xib */,
+				83DADAD91AE7408400A21B5D /* Supporting Files */,
+				83DADAFF1AE753DC00A21B5D /* CustomUIControl.h */,
+				83DADB001AE753DC00A21B5D /* CustomUIControl.m */,
+				83540C5A1AE864EF009CD86D /* DisplayViewController.h */,
+				83540C5B1AE864F0009CD86D /* DisplayViewController.m */,
+			);
+			path = MonsooniOSChallenge;
+			sourceTree = "<group>";
+		};
+		83DADAD91AE7408400A21B5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83DADADA1AE7408400A21B5D /* Info.plist */,
+				83DADADB1AE7408400A21B5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83DADAF21AE7408800A21B5D /* MonsooniOSChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				83DADAF51AE7408800A21B5D /* MonsooniOSChallengeTests.m */,
+				83DADAF31AE7408800A21B5D /* Supporting Files */,
+			);
+			path = MonsooniOSChallengeTests;
+			sourceTree = "<group>";
+		};
+		83DADAF31AE7408800A21B5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83DADAF41AE7408800A21B5D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83E9CC0E1AE9B1E60059B6F6 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				83E9CC0F1AE9B1E60059B6F6 /* MON_calendarIcon@2x.png */,
+				83E9CC101AE9B1E60059B6F6 /* MON_compassIcon@2x.png */,
+				83E9CC111AE9B1E60059B6F6 /* MON_Ellipse-13-copy-2@2x.png */,
+				83E9CC121AE9B1E60059B6F6 /* MON_Ellipse-13-copy@2x.png */,
+				83E9CC131AE9B1E60059B6F6 /* MON_GO@2x.png */,
+				83E9CC141AE9B1E60059B6F6 /* MON_menuIcon@2x.png */,
+				83E9CC151AE9B1E60059B6F6 /* MON_searchIcon@2x.png */,
+				83E9CC161AE9B1E60059B6F6 /* MON_shuffleIcon@2x.png */,
+				83E9CC171AE9B1E60059B6F6 /* MonsooniOSChallenge.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83DADAD51AE7408200A21B5D /* MonsooniOSChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83DADAF91AE7408800A21B5D /* Build configuration list for PBXNativeTarget "MonsooniOSChallenge" */;
+			buildPhases = (
+				83DADAD21AE7408200A21B5D /* Sources */,
+				83DADAD31AE7408200A21B5D /* Frameworks */,
+				83DADAD41AE7408200A21B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonsooniOSChallenge;
+			productName = MonsooniOSChallenge;
+			productReference = 83DADAD61AE7408300A21B5D /* MonsooniOSChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83DADAEE1AE7408800A21B5D /* MonsooniOSChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83DADAFC1AE7408800A21B5D /* Build configuration list for PBXNativeTarget "MonsooniOSChallengeTests" */;
+			buildPhases = (
+				83DADAEB1AE7408800A21B5D /* Sources */,
+				83DADAEC1AE7408800A21B5D /* Frameworks */,
+				83DADAED1AE7408800A21B5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83DADAF11AE7408800A21B5D /* PBXTargetDependency */,
+			);
+			name = MonsooniOSChallengeTests;
+			productName = MonsooniOSChallengeTests;
+			productReference = 83DADAEF1AE7408800A21B5D /* MonsooniOSChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83DADACE1AE7408100A21B5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "yunrui zhang";
+				TargetAttributes = {
+					83DADAD51AE7408200A21B5D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					83DADAEE1AE7408800A21B5D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 83DADAD51AE7408200A21B5D;
+					};
+				};
+			};
+			buildConfigurationList = 83DADAD11AE7408200A21B5D /* Build configuration list for PBXProject "MonsooniOSChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83DADACD1AE7408100A21B5D;
+			productRefGroup = 83DADAD71AE7408300A21B5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83DADAD51AE7408200A21B5D /* MonsooniOSChallenge */,
+				83DADAEE1AE7408800A21B5D /* MonsooniOSChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83DADAD41AE7408200A21B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E9CC1F1AE9B1E70059B6F6 /* MON_shuffleIcon@2x.png in Resources */,
+				83E9CC181AE9B1E70059B6F6 /* MON_calendarIcon@2x.png in Resources */,
+				83E9CC191AE9B1E70059B6F6 /* MON_compassIcon@2x.png in Resources */,
+				83DADAEA1AE7408700A21B5D /* LaunchScreen.xib in Resources */,
+				83E9CC1E1AE9B1E70059B6F6 /* MON_searchIcon@2x.png in Resources */,
+				83E9CC1B1AE9B1E70059B6F6 /* MON_Ellipse-13-copy@2x.png in Resources */,
+				83540C591AE85D5E009CD86D /* Main.storyboard in Resources */,
+				83DADAE71AE7408700A21B5D /* Images.xcassets in Resources */,
+				83E9CC1A1AE9B1E70059B6F6 /* MON_Ellipse-13-copy-2@2x.png in Resources */,
+				83E9CC201AE9B1E70059B6F6 /* MonsooniOSChallenge.png in Resources */,
+				83E9CC1C1AE9B1E70059B6F6 /* MON_GO@2x.png in Resources */,
+				83E9CC1D1AE9B1E70059B6F6 /* MON_menuIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DADAED1AE7408800A21B5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83DADAD21AE7408200A21B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83540C5C1AE864F0009CD86D /* DisplayViewController.m in Sources */,
+				83DADAE21AE7408500A21B5D /* ViewController.m in Sources */,
+				83DADADF1AE7408500A21B5D /* AppDelegate.m in Sources */,
+				83DADB011AE753DC00A21B5D /* CustomUIControl.m in Sources */,
+				83DADADC1AE7408400A21B5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83DADAEB1AE7408800A21B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DADAF61AE7408800A21B5D /* MonsooniOSChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83DADAF11AE7408800A21B5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83DADAD51AE7408200A21B5D /* MonsooniOSChallenge */;
+			targetProxy = 83DADAF01AE7408800A21B5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83540C571AE85D5E009CD86D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83540C581AE85D5E009CD86D /* en */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		83DADAE81AE7408700A21B5D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83DADAE91AE7408700A21B5D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83DADAF71AE7408800A21B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83DADAF81AE7408800A21B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83DADAFA1AE7408800A21B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MonsooniOSChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83DADAFB1AE7408800A21B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MonsooniOSChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83DADAFD1AE7408800A21B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MonsooniOSChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonsooniOSChallenge.app/MonsooniOSChallenge";
+			};
+			name = Debug;
+		};
+		83DADAFE1AE7408800A21B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MonsooniOSChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonsooniOSChallenge.app/MonsooniOSChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83DADAD11AE7408200A21B5D /* Build configuration list for PBXProject "MonsooniOSChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DADAF71AE7408800A21B5D /* Debug */,
+				83DADAF81AE7408800A21B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83DADAF91AE7408800A21B5D /* Build configuration list for PBXNativeTarget "MonsooniOSChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DADAFA1AE7408800A21B5D /* Debug */,
+				83DADAFB1AE7408800A21B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83DADAFC1AE7408800A21B5D /* Build configuration list for PBXNativeTarget "MonsooniOSChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DADAFD1AE7408800A21B5D /* Debug */,
+				83DADAFE1AE7408800A21B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83DADACE1AE7408100A21B5D /* Project object */;
+}
