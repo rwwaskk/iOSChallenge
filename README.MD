@@ -17,6 +17,6 @@
 - Circular segments changes color when value changes (or maybe this is requirement?)
 
 
-###To Do
+###To-Do
 
 - Animations and sounds
